@@ -1,0 +1,53 @@
+%PDF-1.4
+1 0 obj
+<< /Title (Danish Ali - Software Engineering Student & MERN Developer Resume)
+   /Author (Danish Ali)
+   /Creator (Danish Ali Portfolio)
+   /Producer (Next.js Portfolio Generator)
+>>
+endobj
+2 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 6 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 280 >>
+stream
+BT
+/F1 22 Tf
+50 720 Td
+(Danish Ali - Software Engineer & MERN Stack Developer) Tj
+/F1 12 Tf
+0 -30 Td
+(Email: d9963534@gmail.com | GitHub: github.com/danish234-droid | Faisalabad, Pakistan) Tj
+0 -30 Td
+(Education: BS Software Engineering, GCUF (2024 - Present)) Tj
+0 -20 Td
+(Training: SMIT Web & Mobile App Development (2025 - Present)) Tj
+0 -20 Td
+(Skills: Next.js, React, TypeScript, Tailwind CSS, Redux Toolkit, Node.js, Express, MongoDB) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000010 00000 n 
+0000000160 00000 n 
+0000000210 00000 n 
+0000000270 00000 n 
+0000000390 00000 n 
+0000000725 00000 n 
+trailer
+<< /Size 7 /Root 2 0 R /Info 1 0 R >>
+startxref
+800
+%%EOF
