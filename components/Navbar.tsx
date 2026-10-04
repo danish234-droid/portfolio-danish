@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { siteConfig } from "@/data/site";
-import { Menu, X, Github, ArrowUpRight, MessageSquareCode } from "lucide-react";
+import { Menu, X, Github, ArrowUpRight, MessageSquareCode, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
@@ -136,9 +136,17 @@ export function Navbar() {
           })}
         </nav>
 
-        {/* Right Action Group: Theme Toggle, GitHub, Let's Talk (FR-N3) */}
+        {/* Right Action Group: Theme Toggle, Resume, GitHub, Let's Talk (FR-N3) */}
         <div className="hidden md:flex items-center gap-2.5">
           <ThemeToggle />
+
+          <Link
+            href="/resume"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl border border-border bg-card/60 hover:bg-muted text-foreground text-xs font-medium transition-all duration-200 focus-visible:ring-2 focus-visible:ring-primary shadow-sm"
+          >
+            <FileText className="w-3.5 h-3.5 text-primary" />
+            <span>Resume</span>
+          </Link>
 
           <a
             href={siteConfig.github}
@@ -220,6 +228,18 @@ export function Navbar() {
               </nav>
 
               <div className="pt-3 border-t border-border flex flex-col gap-2.5">
+                <Link
+                  href="/resume"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-4 py-2.5 rounded-xl border border-primary/30 bg-primary/10 text-primary text-sm font-medium hover:bg-primary/15 transition-colors"
+                >
+                  <span className="flex items-center gap-2">
+                    <FileText className="w-4 h-4 text-primary" />
+                    <span>View &amp; Download Resume</span>
+                  </span>
+                  <ArrowUpRight className="w-4 h-4 opacity-70" />
+                </Link>
+
                 <a
                   href={siteConfig.github}
                   target="_blank"

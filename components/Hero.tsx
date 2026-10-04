@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { siteConfig } from "@/data/site";
 import {
   ArrowRight,
@@ -14,6 +15,7 @@ import {
   Layers,
   Database,
   Cpu,
+  FileText,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -64,22 +66,31 @@ export function Hero() {
             </p>
 
             {/* CTAs (FR-H4) */}
-            <div className="flex flex-wrap items-center gap-3.5 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium text-sm hover:opacity-95 transition-all shadow-md shadow-primary/20 group focus-visible:ring-2 focus-visible:ring-primary"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-primary text-primary-foreground font-medium text-sm hover:opacity-95 transition-all shadow-md shadow-primary/20 group focus-visible:ring-2 focus-visible:ring-primary"
               >
                 <span>View My Work</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </a>
 
+              <Link
+                href="/resume"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-primary/30 bg-primary/10 hover:bg-primary/15 text-primary font-medium text-sm transition-all focus-visible:ring-2 focus-visible:ring-primary shadow-sm"
+              >
+                <FileText className="w-4 h-4" />
+                <span>View Resume</span>
+              </Link>
+
               <a
                 href={siteConfig.resumePath}
                 download="Danish-Ali-Resume.pdf"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-border bg-card/80 hover:bg-muted text-foreground font-medium text-sm transition-all focus-visible:ring-2 focus-visible:ring-primary"
+                className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-border bg-card/80 hover:bg-muted text-foreground font-medium text-sm transition-all focus-visible:ring-2 focus-visible:ring-primary"
+                title="Download PDF directly"
               >
                 <Download className="w-4 h-4 text-muted-foreground" />
-                <span>Download Resume</span>
+                <span>Download PDF</span>
               </a>
             </div>
 
