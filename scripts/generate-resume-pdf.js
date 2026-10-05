@@ -81,7 +81,7 @@ function generateResume() {
     "d9963534@gmail.com",
     "+92 3020043773",
     "github.com/danish234-droid",
-    "linkedin.com/in/danish-ali",
+    "linkedin.com/in/danish-ali-0462663b5",
   ].join("  |  ");
 
   doc
@@ -202,6 +202,11 @@ function generateResume() {
     .font("Helvetica")
     .fontSize(8)
     .fillColor(colors.highlight)
+    .text("  [Live: unbecoming-icicle.surge.sh]", {
+      link: "https://unbecoming-icicle.surge.sh/",
+      underline: true,
+      continued: true,
+    })
     .text("  [GitHub: danish234-droid/atm-management-system]", {
       link: "https://github.com/danish234-droid/atm-management-system",
       underline: true,

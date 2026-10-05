@@ -159,7 +159,7 @@ export function Contact() {
                     </div>
                     <div>
                       <span className="font-semibold text-foreground block">LinkedIn</span>
-                      <span className="text-muted-foreground">linkedin.com/in/danish-ali</span>
+                      <span className="text-muted-foreground">linkedin.com/in/danish-ali-0462663b5</span>
                     </div>
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />

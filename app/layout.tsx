@@ -69,7 +69,7 @@ const jsonLd = {
   },
   sameAs: [
     "https://github.com/danish234-droid",
-    "https://linkedin.com/in/danish-ali",
+    "https://www.linkedin.com/in/danish-ali-0462663b5",
   ],
 };
 

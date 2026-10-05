@@ -64,7 +64,7 @@ export const fallbackRepos: GitHubRepo[] = [
     name: "atm-management-system",
     description: "CLI and TypeScript banking transaction simulator featuring authentication, balance tracking, and ledger history.",
     html_url: "https://github.com/danish234-droid",
-    homepage: null,
+    homepage: "https://unbecoming-icicle.surge.sh/",
     stargazers_count: 1,
     forks_count: 0,
     language: "TypeScript",

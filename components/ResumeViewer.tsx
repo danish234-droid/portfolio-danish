@@ -165,7 +165,7 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
               className="flex items-center gap-2 hover:text-primary transition-colors"
             >
               <Linkedin className="w-3.5 h-3.5 text-primary flex-shrink-0" />
-              <span>linkedin.com/in/danish-ali</span>
+              <span>linkedin.com/in/danish-ali-0462663b5</span>
             </a>
 
             <a
@@ -364,12 +364,22 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
                   <a
+                    href="https://unbecoming-icicle.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary inline-flex items-center gap-1 font-medium"
+                  >
+                    <span>Live Demo</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <span>•</span>
+                  <a
                     href="https://github.com/danish234-droid/atm-management-system"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary inline-flex items-center gap-1 font-medium"
                   >
-                    <span>Source Code &amp; Docs</span>
+                    <span>Source Code</span>
                     <Github className="w-3 h-3" />
                   </a>
                 </div>

@@ -90,7 +90,7 @@ export const projects: Project[] = [
     ],
     previewGradient: "from-emerald-500/20 via-teal-500/20 to-cyan-500/20",
     githubUrl: "https://github.com/danish234-droid/atm-management-system",
-    liveUrl: "https://github.com/danish234-droid/atm-management-system",
+    liveUrl: "https://unbecoming-icicle.surge.sh/",
     featured: false,
     statusBadge: "TypeScript Project",
   },

@@ -6,7 +6,7 @@ export const siteConfig = {
   email: "d9963534@gmail.com",
   phone: "+92 3020043773",
   github: "https://github.com/danish234-droid",
-  linkedin: "https://linkedin.com/in/danish-ali", // Owner placeholder
+  linkedin: "https://www.linkedin.com/in/danish-ali-0462663b5",
   whatsapp: "https://wa.me/923020043773",
   resumePath: "/resume/Danish-Ali-Resume.pdf",
   siteUrl: "https://danishali.dev",
