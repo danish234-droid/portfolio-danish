@@ -165,7 +165,36 @@ function generateResume() {
 
   doc.moveDown(0.3);
 
-  // Project 2: Workspace Manager
+  // Project 2: Appointment Booking System
+  doc
+    .fontSize(9.5)
+    .font("Helvetica-Bold")
+    .fillColor(colors.dark)
+    .text("Appointment Booking System — Scheduling Platform", { continued: true })
+    .font("Helvetica")
+    .fontSize(8)
+    .fillColor(colors.highlight)
+    .text("  [GitHub: danish234-droid/appointment-booking]", {
+      link: "https://github.com/danish234-droid/appointment-booking",
+      underline: true,
+    });
+
+  doc
+    .fontSize(8)
+    .font("Helvetica-Oblique")
+    .fillColor(colors.primary)
+    .text("Tech Stack: Next.js, React, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, REST APIs");
+
+  doc
+    .fontSize(8.5)
+    .font("Helvetica")
+    .fillColor(colors.secondary)
+    .text("• Engineered full-stack appointment scheduling platform featuring conflict-free interactive calendar time-slot booking.", { lineGap: 1.2 })
+    .text("• Built multi-role user dashboards (Client, Provider, Admin) with real-time status management and automated notifications.", { lineGap: 1.2 });
+
+  doc.moveDown(0.3);
+
+  // Project 3: Workspace Manager
   doc
     .fontSize(9.5)
     .font("Helvetica-Bold")

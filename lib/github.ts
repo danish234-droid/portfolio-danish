@@ -48,6 +48,18 @@ export const fallbackRepos: GitHubRepo[] = [
     topics: ["fullstack", "nextjs", "express", "prisma", "postgresql", "typescript", "rbac"],
   },
   {
+    id: 11,
+    name: "appointment-booking",
+    description: "Full-stack appointment scheduling and booking management platform. Next.js, React, Node.js, Express, and MongoDB.",
+    html_url: "https://github.com/danish234-droid/appointment-booking",
+    homepage: "https://github.com/danish234-droid/appointment-booking",
+    stargazers_count: 2,
+    forks_count: 0,
+    language: "TypeScript",
+    updated_at: "2026-11-20T07:55:00Z",
+    topics: ["fullstack", "nextjs", "react", "appointment-booking", "nodejs", "typescript"],
+  },
+  {
     id: 1,
     name: "workspace-manager",
     description: "Next.js & TypeScript multi-workspace productivity platform with Kanban board, calendar views, and state management.",

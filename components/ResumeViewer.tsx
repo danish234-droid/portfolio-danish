@@ -298,6 +298,45 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
               </ul>
             </div>
 
+            {/* Project: Appointment Booking System */}
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 dark:text-white">
+                    Appointment Booking System — Real-Time Scheduling Platform
+                  </h3>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-teal-500/10 text-teal-600 dark:text-teal-400 border border-teal-500/20">
+                    Full-Stack Web App
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+                  <a
+                    href="https://github.com/danish234-droid/appointment-booking"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary inline-flex items-center gap-1 font-medium"
+                  >
+                    <span>Source Code</span>
+                    <Github className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+              <p className="text-[11px] font-mono text-primary/90 dark:text-primary">
+                Tech Stack: Next.js, React, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, REST APIs
+              </p>
+              <ul className="list-disc list-outside ml-4 space-y-1 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                <li>
+                  Engineered interactive calendar time-slot booking system with dynamic availability schedules and automated double-booking prevention.
+                </li>
+                <li>
+                  Implemented multi-role permission flows (Clients, Service Providers, Admin) and complete appointment lifecycles from request to completion.
+                </li>
+                <li>
+                  Designed responsive client dashboard with automated notifications, status indicators, and secure session management.
+                </li>
+              </ul>
+            </div>
+
             {/* Project 1: Workspace Manager */}
             <div className="space-y-2">
               <div className="flex flex-wrap items-center justify-between gap-2">

@@ -18,6 +18,9 @@ import {
   Shield,
   Star,
   MapPin,
+  Calendar,
+  Clock,
+  UserCheck,
 } from "lucide-react";
 
 interface ProjectPreviewProps {
@@ -80,6 +83,62 @@ export function ProjectPreview({ projectId, className = "" }: ProjectPreviewProp
           <div className="flex items-center justify-between z-10 text-[10px] font-mono text-slate-400 border-t border-blue-900/40 pt-2">
             <span>Express 5 + Prisma ORM</span>
             <span className="text-cyan-400 font-semibold">Next.js 16 • Full-Stack</span>
+          </div>
+        </div>
+      );
+
+    case "appointment-booking":
+      return (
+        <div className={`relative w-full h-full bg-gradient-to-br from-[#061d1e] via-[#081a20] to-[#040e12] flex flex-col justify-between p-4 overflow-hidden select-none ${className}`}>
+          {/* Subtle background glow */}
+          <div className="absolute top-0 right-0 w-44 h-44 bg-teal-500/20 blur-3xl rounded-full" />
+          <div className="absolute bottom-0 left-0 w-32 h-32 bg-emerald-500/15 blur-2xl rounded-full" />
+
+          {/* Top Bar */}
+          <div className="flex items-center justify-between z-10">
+            <div className="flex items-center gap-1.5 bg-teal-950/70 backdrop-blur-md px-2.5 py-1 rounded-lg border border-teal-700/60 text-[11px] font-mono text-teal-300">
+              <Calendar className="w-3.5 h-3.5 text-teal-400" />
+              <span>Appointment Booking</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-emerald-500/15 px-2 py-0.5 rounded-full border border-emerald-500/30 text-[10px] font-medium text-emerald-300 font-mono">
+              <UserCheck className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Confirmed Slot</span>
+            </div>
+          </div>
+
+          {/* Booking Card Showcase Mockup */}
+          <div className="my-auto z-10 flex flex-col gap-2 bg-black/50 border border-teal-500/30 rounded-xl p-3 backdrop-blur-sm shadow-xl">
+            <div className="flex items-start justify-between gap-2">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-teal-500 to-emerald-600 flex items-center justify-center text-white shadow-md flex-shrink-0">
+                  <Calendar className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-xs font-bold text-slate-100 block leading-tight">General Consultation &amp; Checkup</span>
+                  <div className="flex items-center gap-1.5 text-[10px] text-slate-400 mt-0.5">
+                    <Clock className="w-3 h-3 text-teal-400" />
+                    <span>Friday, 10:30 AM — 11:15 AM</span>
+                  </div>
+                </div>
+              </div>
+              <span className="text-[9px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                Scheduled
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between pt-2 border-t border-slate-800/80 text-[11px]">
+              <div className="flex items-center gap-1.5 text-teal-300 font-mono text-[10px]">
+                <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
+                <span>Dr. Harris • Room 204</span>
+              </div>
+              <span className="font-mono text-[10px] text-slate-400">Token #B-408</span>
+            </div>
+          </div>
+
+          {/* Footer stats */}
+          <div className="flex items-center justify-between z-10 text-[10px] font-mono text-slate-400 border-t border-teal-900/40 pt-2">
+            <span>Next.js + Express &amp; MongoDB</span>
+            <span className="text-teal-400 font-semibold">Real-Time Scheduling</span>
           </div>
         </div>
       );
