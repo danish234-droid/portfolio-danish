@@ -174,6 +174,11 @@ function generateResume() {
     .font("Helvetica")
     .fontSize(8)
     .fillColor(colors.highlight)
+    .text("  [Live: frontend-omega-ten-87.vercel.app]", {
+      link: "https://frontend-omega-ten-87.vercel.app/",
+      underline: true,
+      continued: true,
+    })
     .text("  [GitHub: danish234-droid/appointment-booking]", {
       link: "https://github.com/danish234-droid/appointment-booking",
       underline: true,
@@ -203,8 +208,8 @@ function generateResume() {
     .font("Helvetica")
     .fontSize(8)
     .fillColor(colors.highlight)
-    .text("  [Live: workspace-manager-three.vercel.app]", {
-      link: "https://workspace-manager-three.vercel.app/",
+    .text("  [Live: workspace-manager-2ksg.vercel.app]", {
+      link: "https://workspace-manager-2ksg.vercel.app/",
       underline: true,
     });
 

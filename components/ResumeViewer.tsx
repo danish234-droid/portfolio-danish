@@ -311,6 +311,16 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
                   <a
+                    href="https://frontend-omega-ten-87.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary inline-flex items-center gap-1 font-medium"
+                  >
+                    <span>Live Demo</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <span>•</span>
+                  <a
                     href="https://github.com/danish234-droid/appointment-booking"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -350,7 +360,7 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
                   <a
-                    href="https://workspace-manager-three.vercel.app/"
+                    href="https://workspace-manager-2ksg.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary inline-flex items-center gap-1 font-medium"
