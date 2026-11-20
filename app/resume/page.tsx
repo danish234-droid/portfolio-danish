@@ -4,11 +4,11 @@ import { projects } from "@/data/projects";
 import { ResumeViewer } from "@/components/ResumeViewer";
 
 export const metadata: Metadata = {
-  title: "Resume | Danish Ali - Software Engineer & MERN Stack Developer",
+  title: "Resume | Danish Ali - Full-Stack Software Engineer & BS SE Student",
   description:
-    "Professional software engineering resume of Danish Ali. BS Software Engineering student & MERN Stack developer experienced in Next.js, React, TypeScript, Node.js, and MongoDB.",
+    "Professional software engineering resume of Danish Ali. BS Software Engineering student and Full-Stack Software Engineer experienced in Next.js, Express, PostgreSQL, Prisma, React, TypeScript, and Node.js.",
   openGraph: {
-    title: "Danish Ali - Software Engineer & Developer Resume",
+    title: "Danish Ali - Full-Stack Software Engineer Resume",
     description:
       "Explore the professional experience, featured projects, technical skill matrix, and education of Danish Ali.",
     type: "profile",

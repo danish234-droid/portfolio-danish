@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Danish Ali",
-  role: "Software Engineering Student & MERN Stack Developer",
+  role: "Full-Stack Software Engineer & BS SE Student",
   location: "Faisalabad, Pakistan",
-  bio: "Software Engineering student and MERN Stack Developer focused on building modern, responsive, and scalable web applications.",
+  bio: "Full-Stack Software Engineer and BS Software Engineering student focused on building modern, secure, and scalable web applications with Next.js, Express, PostgreSQL, and Prisma.",
   email: "d9963534@gmail.com",
   phone: "+92 3020043773",
   github: "https://github.com/danish234-droid",

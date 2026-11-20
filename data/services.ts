@@ -8,55 +8,55 @@ export interface ServiceItem {
 
 export const services: ServiceItem[] = [
   {
-    id: "frontend-development",
-    title: "Frontend Development",
-    description:
-      "Crafting responsive, high-performance, and visually refined web interfaces using modern React, Next.js (App Router), and TypeScript.",
-    points: [
-      "Pixel-perfect responsive design across all viewports",
-      "Interactive animations and micro-interactions",
-      "Accessibility (WCAG AA) & SEO optimization",
-      "Clean modular component architectures",
-    ],
-    icon: "Layout",
-  },
-  {
     id: "fullstack-development",
     title: "Full-Stack Web Development",
     description:
-      "Developing connected web applications by integrating dynamic frontend clients with secure backend REST APIs and MongoDB databases.",
+      "Engineering end-to-end, scalable web applications by combining reactive Next.js frontends with robust Express 5 REST APIs, PostgreSQL databases, and Prisma ORM.",
     points: [
-      "RESTful API design and route handling",
-      "Database schema modeling with MongoDB",
-      "Authentication and protected routes",
-      "State synchronization with Redux Toolkit",
+      "Full-stack monorepo architecture & clean code modularity",
+      "PostgreSQL & Prisma ORM relational schema design & indexing",
+      "JWT authentication with token revocation & RBAC permissions",
+      "Zod runtime validation, Helmet security & API rate limiting",
     ],
     icon: "Server",
   },
   {
-    id: "ecommerce-solutions",
-    title: "E-Commerce Solutions",
+    id: "frontend-development",
+    title: "Frontend Engineering",
     description:
-      "Building smooth digital shopping experiences with dynamic product catalogs, search, filtering, shopping cart workflows, and interactive checkout previews.",
+      "Crafting responsive, high-performance, and visually refined web interfaces using modern React, Next.js (App Router), and TypeScript.",
     points: [
-      "Dynamic catalog browsing & multi-facet filtering",
-      "Client-side cart persistence & management",
-      "Smooth animated drawers and modals",
-      "Optimized performance and fast load times",
+      "Pixel-perfect responsive design across mobile, tablet, and desktop",
+      "Interactive animations and micro-interactions with Framer Motion",
+      "Accessibility (WCAG AA), Core Web Vitals & SEO optimization",
+      "Clean modular component architectures & design token systems",
     ],
-    icon: "ShoppingBag",
+    icon: "Layout",
   },
   {
-    id: "ui-implementation",
-    title: "UI / UX Implementation",
+    id: "backend-api",
+    title: "RESTful API & Database Architecture",
     description:
-      "Translating Figma wireframes, UI kits, and conceptual designs into maintainable, semantic code with clean Tailwind CSS utility systems.",
+      "Designing robust, secure, and production-ready backend services with Node.js, Express, PostgreSQL, and Prisma with strict contract validation.",
     points: [
-      "High-fidelity design-to-code conversion",
-      "Custom dark / light theme implementation",
-      "Interactive state feedback and micro-interactions",
-      "Maintainable design token systems",
+      "RESTful API design with centralized error handling middleware",
+      "Relational schema modeling with migration lifecycles & relations",
+      "Role-Based Access Control (RBAC) and HttpOnly cookie security",
+      "Automated integration testing for endpoints and auth flows",
     ],
-    icon: "Sparkles",
+    icon: "Database",
+  },
+  {
+    id: "ecommerce-solutions",
+    title: "E-Commerce & Marketplace Platforms",
+    description:
+      "Building smooth digital shopping and on-demand marketplace experiences with dynamic catalogs, search/filter matrices, and booking pipelines.",
+    points: [
+      "Dynamic catalog browsing & multi-facet filtering",
+      "Real-time cart state management and checkout flows",
+      "Multi-status booking workflows (Pending, Accepted, Completed)",
+      "Customer reviews and rating engines tied to verified orders",
+    ],
+    icon: "ShoppingBag",
   },
 ];

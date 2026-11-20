@@ -29,7 +29,7 @@ export function About() {
           </h2>
           <div className="w-12 h-1 bg-primary rounded-full mt-3 mb-4" />
           <p className="text-muted-foreground text-sm sm:text-base max-w-xl">
-            Passionate about writing clean code, solving algorithmic problems, and developing scalable software products.
+            Passionate about writing clean code, architecting full-stack systems, and developing scalable software products.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export function About() {
                 </div>
                 <div className="p-3 rounded-xl bg-muted/60 border border-border/50">
                   <span className="text-muted-foreground block">Focus Area</span>
-                  <span className="font-semibold text-foreground mt-0.5 block">MERN + Next.js</span>
+                  <span className="font-semibold text-foreground mt-0.5 block">Full-Stack &amp; Next.js</span>
                 </div>
                 <div className="p-3 rounded-xl bg-muted/60 border border-border/50">
                   <span className="text-muted-foreground block">Collaboration</span>

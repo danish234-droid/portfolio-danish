@@ -112,7 +112,7 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 {siteConfig.name}
               </h1>
               <p className="text-base sm:text-lg font-semibold text-primary mt-1">
-                Software Engineering Student &amp; MERN Stack Developer
+                Full-Stack Software Engineer &amp; BS SE Student
               </p>
             </div>
 
@@ -189,7 +189,7 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed text-justify">
-            Motivated Software Engineering undergraduate (GCUF) and active MERN stack practitioner (SMIT) with a solid foundation in computer science principles, data structures, algorithms, and modern full-stack web development. Proficient in building responsive, high-performance web applications using <strong>Next.js 15, React 19, TypeScript, and Tailwind CSS</strong>, with expanding capabilities in <strong>Node.js, Express, MongoDB, and RESTful API architecture</strong>. Strong problem solver committed to writing clean, maintainable code and eager to contribute to high-impact software engineering teams.
+            Motivated Software Engineering undergraduate (GCUF) and active full-stack practitioner (SMIT) with a solid foundation in computer science principles, data structures, algorithms, and modern full-stack web development. Proficient in engineering production-grade web applications using <strong>Next.js 16, React 19, TypeScript, and Tailwind CSS</strong> alongside robust backend systems with <strong>Express 5, Node.js, PostgreSQL, Prisma ORM, and RESTful API architecture</strong>. Strong problem solver committed to writing clean, maintainable code and eager to contribute to high-impact software engineering teams.
           </p>
         </section>
 
@@ -208,7 +208,7 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 Frontend Development:
               </span>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                React 19, Next.js 15 (App Router, Server Components), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Web Design, Component Driven UI.
+                React 19, Next.js 16/15 (App Router, Server Components), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Web Design, Component Driven UI.
               </p>
             </div>
 
@@ -217,25 +217,25 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
                 State Management &amp; Forms:
               </span>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                Redux Toolkit, Context API, Formik, Yup Schema Validation, Client-side Caching &amp; Synchronized State.
+                Redux Toolkit, Context API, Formik, Yup &amp; Zod Schema Validation, Client-side Caching &amp; Synchronized State.
               </p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800/80">
               <span className="font-semibold text-slate-900 dark:text-white block mb-1.5">
-                Backend &amp; Databases (Active Focus):
+                Backend &amp; Database Architecture:
               </span>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                Node.js, Express.js, MongoDB, Mongoose, RESTful API Design, JWT Authentication, SQL &amp; Relational Schema Fundamentals.
+                Express.js 5, Node.js, PostgreSQL, Prisma ORM, MongoDB, Mongoose, RESTful API Design, JWT Authentication &amp; RBAC, Security (Helmet, CORS, Rate Limiting).
               </p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800/80">
               <span className="font-semibold text-slate-900 dark:text-white block mb-1.5">
-                Tools, Workflow &amp; Fundamentals:
+                Tools, Workflow &amp; Testing:
               </span>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                Git, GitHub, VS Code, Postman, Vercel, Data Structures &amp; Algorithms (DSA), OOP (C++, Java), Agile / Scrum Basics.
+                Git, GitHub, VS Code, Postman, Vercel, Automated Integration Testing, Data Structures &amp; Algorithms (DSA), OOP (C++, Java).
               </p>
             </div>
           </div>
@@ -256,6 +256,48 @@ export function ResumeViewer({ siteConfig, projects }: ResumeViewerProps) {
           </div>
 
           <div className="space-y-6">
+            {/* Project 0: FixNear */}
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 dark:text-white">
+                    FixNear — On-Demand Services Marketplace Platform
+                  </h3>
+                  <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20">
+                    Flagship Full-Stack Monorepo
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+                  <a
+                    href="https://github.com/danish234-droid/fixNear"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary inline-flex items-center gap-1 font-medium"
+                  >
+                    <span>Source Code</span>
+                    <Github className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+              <p className="text-[11px] font-mono text-primary/90 dark:text-primary">
+                Tech Stack: Express 5, PostgreSQL, Prisma ORM, Next.js 16, TypeScript, Tailwind CSS, JWT &amp; RBAC, Zod
+              </p>
+              <ul className="list-disc list-outside ml-4 space-y-1 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                <li>
+                  Architected production-ready full-stack monorepo featuring a multi-tier Express 5 REST API and a modern Next.js client interface with Tailwind CSS.
+                </li>
+                <li>
+                  Engineered role-based access control (Customer, Professional, Admin) with JWT sessions, token revocation tracking, and secure HttpOnly cookie management.
+                </li>
+                <li>
+                  Designed normalized PostgreSQL schema using Prisma ORM with indexed foreign keys, cascade constraints, and full booking lifecycle management (Pending to Completed).
+                </li>
+                <li>
+                  Enforced enterprise security utilizing Helmet headers, strict CORS whitelisting, bcrypt hashing, API rate limiting, and automated integration test suites.
+                </li>
+              </ul>
+            </div>
+
             {/* Project 1: Workspace Manager */}
             <div className="space-y-2">
               <div className="flex flex-wrap items-center justify-between gap-2">

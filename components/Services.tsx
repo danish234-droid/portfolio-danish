@@ -1,7 +1,7 @@
 "use client";
 
 import { services, ServiceItem } from "@/data/services";
-import { Layout, Server, ShoppingBag, Sparkles, CheckCircle2 } from "lucide-react";
+import { Layout, Server, ShoppingBag, Sparkles, CheckCircle2, Database } from "lucide-react";
 import { motion } from "framer-motion";
 
 function getServiceIcon(iconName: string) {
@@ -10,6 +10,8 @@ function getServiceIcon(iconName: string) {
       return <Layout className="w-6 h-6 text-primary" />;
     case "Server":
       return <Server className="w-6 h-6 text-primary" />;
+    case "Database":
+      return <Database className="w-6 h-6 text-primary" />;
     case "ShoppingBag":
       return <ShoppingBag className="w-6 h-6 text-primary" />;
     case "Sparkles":

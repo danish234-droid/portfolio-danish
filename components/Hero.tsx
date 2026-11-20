@@ -60,8 +60,8 @@ export function Hero() {
 
             {/* Supporting Text (FR-H3) */}
             <p className="text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
-              I&apos;m <span className="text-foreground font-semibold">Danish Ali</span>, a Software
-              Engineering student and MERN Stack Developer focused on building modern, responsive,
+              I&apos;m <span className="text-foreground font-semibold">Danish Ali</span>, a Full-Stack
+              Software Engineer and BS Software Engineering student building modern, secure,
               and scalable web applications.
             </p>
 
@@ -143,7 +143,7 @@ export function Hero() {
               className="absolute -top-5 -left-4 z-20 px-3 py-1.5 rounded-xl border border-border bg-card/90 backdrop-blur-md shadow-lg flex items-center gap-2 text-xs font-medium text-foreground"
             >
               <Layers className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Next.js 15 & React</span>
+              <span>Next.js 16 & React 19</span>
             </motion.div>
 
             <motion.div
@@ -152,7 +152,7 @@ export function Hero() {
               className="absolute -bottom-4 -right-2 z-20 px-3 py-1.5 rounded-xl border border-border bg-card/90 backdrop-blur-md shadow-lg flex items-center gap-2 text-xs font-medium text-foreground"
             >
               <Database className="w-3.5 h-3.5 text-emerald-400" />
-              <span>MongoDB & Node.js</span>
+              <span>PostgreSQL & Express 5</span>
             </motion.div>
 
             {/* Code Editor Window Card */}
@@ -207,7 +207,7 @@ export function Hero() {
                     </p>
                     <p className="pl-4">
                       <span className="text-slate-400">role:</span>{" "}
-                      <span className="text-emerald-400">&quot;Software Engineer &amp; MERN Dev&quot;</span>,
+                      <span className="text-emerald-400">&quot;Full-Stack Software Engineer&quot;</span>,
                     </p>
                     <p className="pl-4">
                       <span className="text-slate-400">education:</span>{" "}
@@ -227,11 +227,11 @@ export function Hero() {
                     </p>
                     <p className="pl-4">
                       <span className="text-slate-400">coreStack:</span> [
-                      <span className="text-amber-300">&quot;React&quot;</span>,{" "}
                       <span className="text-amber-300">&quot;Next.js&quot;</span>,{" "}
-                      <span className="text-amber-300">&quot;TypeScript&quot;</span>,{" "}
-                      <span className="text-amber-300">&quot;Node.js&quot;</span>,{" "}
-                      <span className="text-amber-300">&quot;MongoDB&quot;</span>],
+                      <span className="text-amber-300">&quot;Express.js&quot;</span>,{" "}
+                      <span className="text-amber-300">&quot;PostgreSQL&quot;</span>,{" "}
+                      <span className="text-amber-300">&quot;Prisma&quot;</span>,{" "}
+                      <span className="text-amber-300">&quot;TypeScript&quot;</span>],
                     </p>
                     <p>&#125;;</p>
                   </div>
@@ -241,12 +241,12 @@ export function Hero() {
                     <p>
                       <span className="text-emerald-400">$</span> whoami
                     </p>
-                    <p className="text-cyan-300 pl-3">danish-ali &lt;Software Engineer&gt;</p>
+                    <p className="text-cyan-300 pl-3">danish-ali &lt;Full-Stack Software Engineer&gt;</p>
 
                     <p>
                       <span className="text-emerald-400">$</span> stack --summary
                     </p>
-                    <p className="text-slate-300 pl-3">MERN Stack | Next.js 15 | TypeScript | Tailwind CSS</p>
+                    <p className="text-slate-300 pl-3">Full-Stack | Next.js 16 | Express 5 | PostgreSQL | Prisma</p>
 
                     <p>
                       <span className="text-emerald-400">$</span> status

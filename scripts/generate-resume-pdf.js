@@ -12,10 +12,10 @@ function generateResume() {
     size: "A4",
     margins: { top: 32, bottom: 32, left: 36, right: 36 },
     info: {
-      Title: "Danish Ali - Software Engineer & MERN Stack Developer Resume",
+      Title: "Danish Ali - Full-Stack Software Engineer & BS SE Student Resume",
       Author: "Danish Ali",
       Subject: "Software Engineering Resume",
-      Keywords: "Software Engineer, MERN Stack, React, Next.js, TypeScript, Node.js, Developer Resume",
+      Keywords: "Software Engineer, Full Stack, Express, PostgreSQL, Prisma, Next.js, React, TypeScript, Node.js, Developer Resume",
       Creator: "Danish Ali Portfolio System",
     },
   });
@@ -68,7 +68,7 @@ function generateResume() {
     .fontSize(10.5)
     .font("Helvetica-Bold")
     .fillColor(colors.primary)
-    .text("SOFTWARE ENGINEERING STUDENT & MERN STACK DEVELOPER", {
+    .text("FULL-STACK SOFTWARE ENGINEER & BS SE STUDENT", {
       align: "center",
       characterSpacing: 0.5,
     });
@@ -106,7 +106,7 @@ function generateResume() {
     .font("Helvetica")
     .fillColor(colors.secondary)
     .text(
-      "Software Engineering undergraduate (GCUF) and active MERN stack practitioner (SMIT) with strong foundations in computer science, data structures, algorithms, and full-stack software development. Proven track record in developing high-performance, responsive web applications using Next.js 15, React 19, TypeScript, and Tailwind CSS, with expanding backend capabilities in Node.js, Express, and MongoDB. Passionate about writing clean, maintainable code and solving complex technical challenges in agile team environments.",
+      "Software Engineering undergraduate (GCUF) and active full-stack engineering practitioner (SMIT) with strong foundations in computer science, data structures, algorithms, and production web engineering. Proven track record in developing high-performance full-stack applications using Next.js 16, React 19, TypeScript, and Tailwind CSS, coupled with robust backend architectures utilizing Express 5, Node.js, PostgreSQL, and Prisma ORM. Passionate about writing clean, maintainable code, implementing secure authentication pipelines, and solving complex architectural challenges.",
       { align: "justify", lineGap: 1.5 }
     );
 
@@ -114,10 +114,10 @@ function generateResume() {
   drawSectionHeader("Technical Skills");
   
   const skillsList = [
-    { category: "Frontend", items: "React 19, Next.js 15 (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Design" },
-    { category: "State & Architecture", items: "Redux Toolkit, Context API, Formik, Yup Schema Validation, RESTful API Integration" },
-    { category: "Backend & Databases", items: "Node.js, Express.js, MongoDB, Mongoose, JWT Authentication, Relational SQL Basics" },
-    { category: "Tools & Fundamentals", items: "Git, GitHub, VS Code, Postman, Vercel, Data Structures & Algorithms (DSA), OOP (C++, Java)" },
+    { category: "Frontend", items: "React 19, Next.js 16/15 (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Design" },
+    { category: "Backend & Databases", items: "Express.js 5, Node.js, PostgreSQL, Prisma ORM, MongoDB, Mongoose, RESTful API Design, JWT & RBAC Auth" },
+    { category: "State & Architecture", items: "Redux Toolkit, Context API, Formik, Yup, Zod Runtime Validation, Security (Helmet, CORS, Rate Limiting)" },
+    { category: "Tools & Fundamentals", items: "Git, GitHub, VS Code, Postman, Vercel, Automated Integration Testing, Data Structures & Algorithms (DSA), OOP (C++, Java)" },
   ];
 
   skillsList.forEach((skill) => {
@@ -134,7 +134,38 @@ function generateResume() {
   // SECTION 3: FEATURED ENGINEERING PROJECTS
   drawSectionHeader("Featured Projects");
 
-  // Project 1: Workspace Manager
+  // Project 1: FixNear
+  doc
+    .fontSize(9.5)
+    .font("Helvetica-Bold")
+    .fillColor(colors.dark)
+    .text("FixNear — On-Demand Services Marketplace Platform", { continued: true })
+    .font("Helvetica")
+    .fontSize(8)
+    .fillColor(colors.highlight)
+    .text("  [GitHub: danish234-droid/fixNear]", {
+      link: "https://github.com/danish234-droid/fixNear",
+      underline: true,
+    });
+
+  doc
+    .fontSize(8)
+    .font("Helvetica-Oblique")
+    .fillColor(colors.primary)
+    .text("Tech Stack: Express.js 5, PostgreSQL, Prisma ORM, Next.js 16, TypeScript, Tailwind CSS, JWT & RBAC, Zod");
+
+  doc
+    .fontSize(8.5)
+    .font("Helvetica")
+    .fillColor(colors.secondary)
+    .text("• Architected full-stack monorepo featuring multi-tier Express 5 REST API and reactive Next.js client interface with Tailwind CSS.", { lineGap: 1.2 })
+    .text("• Engineered role-based access control (Customer, Professional, Admin) with JWT token revocation and secure HttpOnly cookie management.", { lineGap: 1.2 })
+    .text("• Designed normalized PostgreSQL schema using Prisma ORM with indexed foreign keys and complete booking lifecycle state machine.", { lineGap: 1.2 })
+    .text("• Enforced enterprise security using Helmet, strict CORS whitelisting, bcrypt hashing, API rate limiting, and automated integration test suites.", { lineGap: 1.2 });
+
+  doc.moveDown(0.3);
+
+  // Project 2: Workspace Manager
   doc
     .fontSize(9.5)
     .font("Helvetica-Bold")

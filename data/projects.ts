@@ -28,6 +28,39 @@ export type ProjectCategory = (typeof projectFilterCategories)[number];
 
 export const projects: Project[] = [
   {
+    id: "fixnear",
+    title: "FixNear — Services Marketplace",
+    slug: "fixnear",
+    shortDescription: "Production-grade full-stack local services platform connecting clients with verified professionals.",
+    longDescription:
+      "A complete enterprise-grade full-stack local services marketplace engineered as a monorepo featuring an Express 5 REST API and a Next.js frontend with Tailwind CSS. Includes role-based access control (Customer, Professional, Admin), JWT session management with token revocation, PostgreSQL database modeled with Prisma ORM, real-time multi-status booking lifecycles, verified customer ratings, and comprehensive Zod validation.",
+    categories: ["Full Stack", "Next.js", "TypeScript", "React"],
+    technologies: [
+      "Express.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "JWT",
+      "Zod",
+    ],
+    features: [
+      "Full-Stack Monorepo Architecture (Express 5 REST API + Next.js App)",
+      "Role-Based Access Control (Customer, Professional, Admin) with JWT & HttpOnly Cookies",
+      "PostgreSQL Relational Schema with Prisma ORM, Indexes & Cascading Foreign Keys",
+      "End-to-End Booking Lifecycle (Pending, Accepted, Rejected, Cancelled, Completed)",
+      "Service Catalog & Discovery with Category, City Filtering & Live Availability",
+      "Verified Customer Reviews & Rating Engine Linked to Completed Bookings",
+      "Enterprise Security with Helmet, Strict CORS Whitelisting, Bcrypt & Rate Limiting",
+      "Automated Integration Testing Suite for Auth, Roles & Middleware",
+    ],
+    previewGradient: "from-blue-600/20 via-indigo-600/20 to-cyan-500/20",
+    githubUrl: "https://github.com/danish234-droid/fixNear",
+    featured: true,
+    statusBadge: "Flagship Full-Stack Platform",
+  },
+  {
     id: "workspace-manager",
     title: "Workspace Manager",
     slug: "workspace-manager",

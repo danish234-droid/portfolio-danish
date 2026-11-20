@@ -16,17 +16,21 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://danishali.dev"),
   title: {
-    default: "Danish Ali | MERN Stack Developer",
+    default: "Danish Ali | Full-Stack Software Engineer",
     template: "%s | Danish Ali",
   },
   description:
-    "Portfolio of Danish Ali, a Software Engineering student and MERN Stack Developer building modern web applications with React, Next.js, TypeScript and Node.js.",
+    "Portfolio of Danish Ali, a Full-Stack Software Engineer and BS Software Engineering student building modern web applications with Next.js, Express, PostgreSQL, Prisma, React, and TypeScript.",
   keywords: [
     "Danish Ali",
     "Software Engineer",
+    "Full-Stack Developer",
     "MERN Stack Developer",
-    "React Developer",
     "Next.js Developer",
+    "React Developer",
+    "PostgreSQL",
+    "Prisma ORM",
+    "Express.js",
     "TypeScript",
     "Tailwind CSS",
     "Portfolio",
@@ -39,16 +43,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://danishali.dev",
-    title: "Danish Ali | MERN Stack Developer",
+    title: "Danish Ali | Full-Stack Software Engineer",
     description:
-      "Portfolio of Danish Ali, a Software Engineering student and MERN Stack Developer building modern web applications with React, Next.js, TypeScript and Node.js.",
+      "Portfolio of Danish Ali, a Full-Stack Software Engineer and BS Software Engineering student building modern web applications with Next.js, Express, PostgreSQL, Prisma, React, and TypeScript.",
     siteName: "Danish Ali Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Danish Ali | MERN Stack Developer",
+    title: "Danish Ali | Full-Stack Software Engineer",
     description:
-      "Portfolio of Danish Ali, a Software Engineering student and MERN Stack Developer building modern web applications with React, Next.js, TypeScript and Node.js.",
+      "Portfolio of Danish Ali, a Full-Stack Software Engineer and BS Software Engineering student building modern web applications with Next.js, Express, PostgreSQL, Prisma, React, and TypeScript.",
   },
   robots: {
     index: true,
@@ -61,7 +65,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Danish Ali",
   url: "https://danishali.dev",
-  jobTitle: "Software Engineering Student & MERN Stack Developer",
+  jobTitle: "Full-Stack Software Engineer & BS SE Student",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Faisalabad",

@@ -23,11 +23,15 @@ export const skills: Skill[] = [
   { name: "Formik", category: "State & Forms", iconName: "FormInput", status: "Core" },
   { name: "Yup", category: "State & Forms", iconName: "ShieldCheck", status: "Core" },
 
-  // Backend (Honest in-progress presentation per FR-T4)
-  { name: "Node.js", category: "Backend", iconName: "Server", status: "Learning" },
-  { name: "Express.js", category: "Backend", iconName: "Cpu", status: "Learning" },
-  { name: "MongoDB", category: "Backend", iconName: "Database", status: "Learning" },
-  { name: "REST APIs", category: "Backend", iconName: "Network", status: "Learning" },
+  // Backend & Databases (Production Full-Stack Capabilities)
+  { name: "Express.js", category: "Backend", iconName: "Server", status: "Core" },
+  { name: "Node.js", category: "Backend", iconName: "Cpu", status: "Core" },
+  { name: "PostgreSQL", category: "Backend", iconName: "Database", status: "Core" },
+  { name: "Prisma ORM", category: "Backend", iconName: "Layers", status: "Core" },
+  { name: "REST APIs", category: "Backend", iconName: "Network", status: "Core" },
+  { name: "JWT & RBAC Auth", category: "Backend", iconName: "ShieldCheck", status: "Core" },
+  { name: "Zod Validation", category: "Backend", iconName: "Code2", status: "Core" },
+  { name: "MongoDB", category: "Backend", iconName: "Database", status: "Core" },
 
   // Tools
   { name: "Git", category: "Tools", iconName: "GitBranch", status: "Core" },
@@ -38,9 +42,9 @@ export const skills: Skill[] = [
 ];
 
 export const currentlyLearning = [
-  { topic: "Node.js & Express Architecture", progress: "Active" },
-  { topic: "MongoDB & Database Modeling", progress: "Active" },
-  { topic: "RESTful API Design & Best Practices", progress: "Active" },
-  { topic: "JWT & Secure Authentication Flows", progress: "Active" },
-  { topic: "Full-Stack Server Actions in Next.js", progress: "Active" },
+  { topic: "Advanced PostgreSQL Indexing & Performance", progress: "Active" },
+  { topic: "Docker Containerization & Deployment", progress: "Active" },
+  { topic: "WebSockets & Real-Time Notification Pipelines", progress: "Active" },
+  { topic: "CI/CD Workflows & Automated Testing Pipelines", progress: "Active" },
+  { topic: "Full-Stack Server Actions & Microservices", progress: "Active" },
 ];

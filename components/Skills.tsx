@@ -113,9 +113,9 @@ export function Skills() {
                       <span>{category}</span>
                     </h3>
                     {isBackend ? (
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-amber-500/10 text-amber-500 border border-amber-500/20">
-                        <Clock className="w-3 h-3" />
-                        In-Progress / Expanding
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-emerald-500/10 text-emerald-500 border border-emerald-500/20">
+                        <CheckCircle className="w-3 h-3" />
+                        Full-Stack &amp; APIs
                       </span>
                     ) : (
                       <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
